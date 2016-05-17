@@ -26,7 +26,7 @@ module.exports = {
     "generator-star-spacing": [2, { "before": true, "after": true }],
     "handle-callback-err": [2, "^(err|error)$" ],
     "indent": [2, 2, { "SwitchCase": 1 }],
-    "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
+    "key-spacing": [2, { "mode": "minimum" }]
     "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
     "new-parens": 2,
     "no-array-constructor": 2,
@@ -61,7 +61,7 @@ module.exports = {
     "no-labels": 2,
     "no-lone-blocks": 2,
     "no-mixed-spaces-and-tabs": 2,
-    "no-multi-spaces": 2,
+    "no-multi-spaces": [2, { exceptions: { "VariableDeclarator": true } }],
     "no-multi-str": 2,
     "no-multiple-empty-lines": [2, { "max": 1 }],
     "no-native-reassign": 2,

@@ -1,9 +1,12 @@
 {
-  "name": "megaphone-eslint-config",
-  "version": "2.1.1",
+  "name": "eslint-config-megaphone",
+  "version": "1.0.0",
   "description": "Megaphone - ESLint configuration",
   "main": "base.js",
   "author": "Megaphone <dev@panoply.fm>",
   "license": "MIT",
-  "peerDependencies": { "babel-eslint": ">4.1.6", "eslint": "^1.10.3 || ^2.0.0" }
+  "peerDependencies": {
+    "babel-eslint": ">4.1.6",
+    "eslint": "^2.0.0"
+  }
 }
