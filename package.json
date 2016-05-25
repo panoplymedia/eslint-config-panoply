@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-panoply",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Panoply - ESLint configuration",
   "main": "base.js",
   "author": "Panoply <dev@panoply.fm>",
