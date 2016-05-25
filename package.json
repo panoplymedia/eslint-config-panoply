@@ -1,9 +1,9 @@
 {
-  "name": "eslint-config-megaphone",
+  "name": "eslint-config-panoply",
   "version": "1.0.0",
-  "description": "Megaphone - ESLint configuration",
+  "description": "Panoply - ESLint configuration",
   "main": "base.js",
-  "author": "Megaphone <dev@panoply.fm>",
+  "author": "Panoply <dev@panoply.fm>",
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": ">4.1.6",

@@ -1,14 +1,14 @@
-# eslint-config-megaphone
+# eslint-config-panoply
 
-This package provides Megaphones's [`ESLint`](http://eslint.org/) configurations as [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs.html).
+This package provides Panoplys's [`ESLint`](http://eslint.org/) configurations as [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs.html).
 
 ## Installation
 
-`npm install --save-dev eslint-config-megaphone`
+`npm install --save-dev eslint-config-panoply`
 
 ## Usage
 
-Add `"extends": ["megaphone"]` to your ESLint config file to get the base eslint configuration. You can also use `megaphone/browser`, `megaphone/node`, `megaphone/mocha`, and `megaphone/react`.
+Add `"extends": ["panoply"]` to your ESLint config file to get the base eslint configuration. You can also use `panoply/browser`, `panoply/node`, `panoply/mocha`, and `panoply/react`.
 
 ## Example
 
@@ -17,9 +17,9 @@ Add `"extends": ["megaphone"]` to your ESLint config file to get the base eslint
 
 module.exports = {
   "extends": [
-    "megaphone",
-    "megaphone/browser",
-    "megaphone/react"
+    "panoply",
+    "panoply/browser",
+    "panoply/react"
   ]
 };
 ```
